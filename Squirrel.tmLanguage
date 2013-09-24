@@ -67,7 +67,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\((\s*[a-zA-Z0-9_]*\s*)\)</string>
+			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\(([a-zA-Z0-9_]*)\)</string>
 			<key>name</key>
 			<string>other.function</string>
 		</dict>
@@ -282,7 +282,7 @@
 			<key>name</key>
 			<string>meta.brace.square.squirrel</string>
 		</dict>
-		<dict>
+				<dict>
 			<key>match</key>
 			<string>\b(CloseGarage|CloseSSVBridge|EnableTrains|GetBoundariesLower|GetBoundariesUpper|GetFriendlyFire|GetGamespeed|GetGravity)\b</string>
 			<key>name</key>
@@ -374,9 +374,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(mysql_connect|mysql_close|mysql_query|mysql_num_rows|mysql_num_fields|mysql_fetch_row|mysql_fetch_assoc|mysql_fetch_lengths|mysql_free_result|mysql_errno|mysql_error|mysql_ping|mysql_escape_string|mysql_select_db|mysql_change_user|mysql_warning_count|mysql_affected_rows|mysql_insert_id|mysql_info)\b</strong>
+			<string>\b(mysql_connect|mysql_close|mysql_query|mysql_num_rows|mysql_num_fields|mysql_fetch_row|mysql_fetch_assoc|mysql_fetch_lengths|mysql_free_result|mysql_errno|mysql_error|mysql_ping|mysql_escape_string|mysql_select_db|mysql_change_user|mysql_warning_count|mysql_affected_rows|mysql_insert_id|mysql_info)\b</string>
 			<key>name</key>
-			<strong>keyword.control.squirrel</strong>
+			<string>keyword.control.squirrel</string>
 		</dict>
 		<dict>
 			<key>match</key>
