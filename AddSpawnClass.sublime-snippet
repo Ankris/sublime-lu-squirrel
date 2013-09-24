@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AddSpawnClass(${1:skin},${2:team}, ${3:pos}, ${4:angle}, ${5:col}, ${6: spawnscreen});]]></content>
+    <tabTrigger>AddSpawnClass</tabTrigger>
+    <scope>source.nut</scope>
+     <description>AddSpawnClass (..., ..., ..., ..., ..., ...)</description>
+</snippet>

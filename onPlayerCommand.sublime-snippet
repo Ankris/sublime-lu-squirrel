@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[function onPlayerCommand(player, cmd, text)
+{
+	if (cmd == "$1")
+    {
+    	$2
+    }
+    return 1;
+}]]></content>
+    <tabTrigger>onPlayerCommand</tabTrigger>
+    <scope>source.nut</scope>
+    <description>onPlayerCommand(player, command, text)</description>
+</snippet>

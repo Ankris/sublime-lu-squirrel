@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[FindPlayer(${1:plr});]]></content>
+    <tabTrigger>FindPlayer</tabTrigger>
+    <scope>source.nut</scope>
+    <description>FindPlayer(string name/int id)</description>
+</snippet>
