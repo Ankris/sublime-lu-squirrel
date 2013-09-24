@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CreateClientCheckpoint(${1:pos}, ${2:5.0}, ${3:plr});]]></content>
+    <tabTrigger>Create</tabTrigger>
+    <scope>source.nut</scope>
+    <description>CreateClientCheckpoint</description>
+</snippet>

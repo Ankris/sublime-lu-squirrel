@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[GetCheckpointCount(${1:plr});]]></content>
+    <tabTrigger>GetCheck</tabTrigger>
+    <scope>source.nut</scope>
+    <description>GetCheckpointCount([Player plr])</description>
+</snippet>

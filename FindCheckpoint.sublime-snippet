@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[FindCheckpoint();]]></content>
+    <tabTrigger>Find</tabTrigger>
+    <scope>source.nut</scope>
+    <description>FindCheckpoint(int id[,Player plr])</description>
+</snippet>

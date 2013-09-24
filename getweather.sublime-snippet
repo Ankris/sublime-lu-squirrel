@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[GetWeather()]]></content>
-    <tabTrigger>GetW</tabTrigger>
+    <tabTrigger>GetWeather</tabTrigger>
     <scope>source.nut</scope>
     <description>GetWeather</description>
 </snippet>
