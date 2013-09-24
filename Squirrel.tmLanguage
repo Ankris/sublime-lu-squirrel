@@ -150,7 +150,7 @@
 			<key>match</key>
 			<string>\b(base|this)\b</string>
 			<key>name</key>
-			<string>variable.language.squirrel</string>
+			<string>storage.type.squirrel</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -449,6 +449,12 @@
 			<string>\b(\.RemoveAttribute|\.RemoveChild|\.RemoveSibling|\.SetAttribute|\.Text)\b</string>
 			<key>name</key>
 			<string>support.function</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b[a-zA-Z0-9_]*::</string>
+			<key>name</key>
+			<string>storage.type.squirrel</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
