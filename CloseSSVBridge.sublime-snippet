@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CloseSSVBride($1:false);]]></content>
+    <tabTrigger>Close</tabTrigger>
+    <scope>source.nut</scope>
+    <description>CloseSSVBridge(bool delayed)</description>
+</snippet>

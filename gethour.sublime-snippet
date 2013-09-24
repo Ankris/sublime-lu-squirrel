@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[GetHour()]]></content>
+    <tabTrigger>GetH</tabTrigger>
+    <scope>source.nut</scope>
+    <description>GetHour()</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Blip.DisplayType =]]></content>
+    <tabTrigger>Blip.</tabTrigger>
+    <scope>source.nut</scope>
+    <description>DisplayType</description>
+</snippet>

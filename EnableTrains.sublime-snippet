@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[EnableTrains(${1:true});]]></content>
+    <tabTrigger>Enab</tabTrigger>
+    <scope>source.nut</scope>
+    <description>EnableTrains(bool enableTrains)</description>
+</snippet>

@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[CloseGarage(${1:id});]]></content>
+    <tabTrigger>Close</tabTrigger>
+    <scope>source.nut</scope>
+    <description>CloseGarage(int garage)</description>
+</snippet>
+
+
+
+<snippet>
+    <content><![CDATA[]]></content>
+    <tabTrigger></tabTrigger>
+    <scope></scope>
+    <description></description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[]]></content>
+    <tabTrigger></tabTrigger>
+    <scope></scope>
+    <description></description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[]]></content>
+    <tabTrigger></tabTrigger>
+    <scope></scope>
+    <description></description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[]]></content>
+    <tabTrigger></tabTrigger>
+    <scope></scope>
+    <description></description>
+</snippet>
