@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[function onPlayerCommand(player, cmd, text)
+    <content><![CDATA[function onPlayerCommand($1, $2, $3)
 {
-	if (cmd == "$1")
+	if ($2 == "$4")
     {
-    	$2
+    	$5
     }
     return 1;
 }]]></content>

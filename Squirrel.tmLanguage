@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>Squirrel Syntax: version 0.1</string>
+	<string>Squirrel Syntax: version 0.1 with Liberty Unleashed Support</string>
     <key>fileTypes</key>
 	<array>
 		<string>nut</string>
@@ -46,6 +46,31 @@
 			<string>\b(class)\s+([a-zA-Z_](?:\w|\.)*)(?:\s+(extends)\s+([a-zA-Z_](?:\w|\.)*))?</string>
 			<key>name</key>
 			<string>meta.class.squirrel</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Matches empty tags.</string>
+			<key>match</key>
+			<string>(?x)
+				(^\s*)?							
+					(							
+						(						
+							(?:
+								((?&lt;=\?&gt;)&lt;)		
+							  | &lt;
+							)
+							\?(?i:php|=)?
+						)
+							(\s*)				
+						((\?)&gt;)					
+												
+					)
+				(
+					\1							
+												
+				  | (\s*$\n)?
+				)
+			</string>
 		</dict>
 		<dict>
 			<key>captures</key>
