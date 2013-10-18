@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[KickPlayer(${1:plr});]]></content>
-    <tabTrigger>KickPlayer</tabTrigger>
-    <scope>source.nut</scope>
-    <description>KickPlayer(Player plr)</description>
-</snippet>

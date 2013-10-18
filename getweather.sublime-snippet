@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[GetWeather()]]></content>
-    <tabTrigger>GetWeather</tabTrigger>
-    <scope>source.nut</scope>
-    <description>GetWeather</description>
-</snippet>
