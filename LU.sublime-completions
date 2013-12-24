@@ -21,6 +21,98 @@
             "trigger": "FindPlayer",
             "contents": "FindPlayer(${1:plr});"
         },
+        {
+            "trigger": "CloseGarage",
+            "contents": "CloseGarage(${1:id});"
+        },
+        {
+            "trigger": "CloseSSVBridge",
+            "contents": "CloseSSVBride(${1:false});"
+        },
+        {
+            "trigger": "BigMessage",
+            "contents": "BigMessage(${1:message}, ${2:time}, {3:type});"
+        },
+        {
+            "trigger": "CreateObject",
+            "contents": "CreateObject(${1:model}, ${2:vector});"
+        },
+        {
+            "trigger": "FindObject",
+            "contents": "FindObject(${1:id});"
+        },
+        {
+            "trigger": "GetObjectCount",
+            "contents": "GetObjectCount();"
+        },
+        {
+            "trigger": "BanIP",
+            "contents": "BanIP(${1:ip});"
+        },
+        {
+            "trigger": "BanPlayer",
+            "contents": "BanPlayer(${1:plr});"
+        },
+        {
+            "trigger": "GetDistrictName",
+            "contents": "GetDistrictName(${1:x}, ${2:y});"
+        },
+        {
+            "trigger": "GetBodyPartName",
+            "contents": "GetBodyPartName(${1:int});"
+        },
+        {
+            "trigger": "UnbanIP",
+            "contents": "UnbanIP(${1:ip});"
+        },
+        {
+            "trigger": "FadeCamera",
+            "contents": "FadeCamera(${1:plr}, ${2:speed}, ${3:fadeIn});"
+        },
+        {
+            "trigger": "FadeCamera",
+            "contents": "FadeCamera(${1:plr}, ${2:speed}, ${3:fadeIn}, ${4:colour});"
+        },
+        {
+            "trigger": "FadeCamera",
+            "contents": "FadeCamera(${1:plr}, ${2:speed}, ${3:fadeIn}, ${4:colour}, ${5:red}, ${6:green}, ${7:blue});"
+        },
+        {
+            "trigger": "GetCinematicBorder",
+            "contents": "GetCinematicBorder();"
+        },
+        {
+            "trigger": "RestoreCamera",
+            "contents": "RestoreCamera(${1:plr});"
+        },
+        {
+            "trigger": "ShakeCamera",
+            "contents": "ShakeCamera(${1:plr}, ${2:intensity});"
+        },
+        {
+            "trigger": "SetCameraMatrix",
+            "contents": "SetCameraMatrix(${1:plr}, ${2:vector}, ${3:lookat}, ${4:rot});"
+        },
+        {
+            "trigger": "SetCinematicBorder",
+            "contents": "SetCinematicBorder($1);"
+        },
+        {
+            "trigger": "GetWeaponName",
+            "contents": "GetWeaponName($1);"
+        },
+        {
+            "trigger": "SetWeaponData",
+            "contents": "SetWeaponData(${1:id}, ${2:data}, ${3:value});"
+        },
+        {
+            "trigger": "GetWeaponIDFromName",
+            "contents": "GetWeaponIDFromName(${1:string});"
+        },
+        {
+            "trigger": "CreateCheckpoint",
+            "contents": "CreateCheckpoint(${1:pos}, ${2:radius}, ${3:vector});"
+        },
         "BODYPART_BODY",
         "BODYPART_HEAD",
         "BODYPART_LEFTARM",

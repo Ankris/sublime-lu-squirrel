@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[BigMessage(${1:message}, ${2:time}, {3:type});]]></content>
-    <tabTrigger>BigMessage</tabTrigger>
-    <scope>source.nut</scope>
-    <description>BigMessage(text, time, type</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CloseGarage(${1:id});]]></content>
-    <tabTrigger>Close</tabTrigger>
-    <scope>source.nut</scope>
-    <description>CloseGarage(int garage)</description>
-</snippet>
