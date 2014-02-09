@@ -1,45 +1,17 @@
 sublime-lu-squirrel
 ================
 
-Adds squirrel support to Sublime Text 2 with Liberty Unleashed functions.
+Adds squirrel support to Sublime Text 2 with Liberty Unleashed functions. Liberty Unleashed is a Grand Theft Auto 3 Multiplayer mod ([site](http://liberty-unleashed.co.uk/))
 
-Note: I'm not entirely finished with this. I also really don't have idea what I am doing... so if I was you, I'd expect this
-to be entirely wrong but lucky at least some of it is right thanks to [Micheg's sublime_squirrel](https://github.com/micheg/sublime_squirrel)
+**Note:** When I first started this I really didn't have any idea what I awas doing... so if I was you, I'd expect this
+to be entirely wrong but lucky at least some of it is right thanks to [Micheg's sublime_squirrel](https://github.com/micheg/sublime_squirrel).
 
+More information is available on the forum topic: 
+[here](http://forum.liberty-unleashed.co.uk/index.php/topic,1820.0.html)
 
-[LU Forums Topic](http://forum.liberty-unleashed.co.uk/index.php/topic,1820.0.html)
-
-Supported Completions
+Features
 ----------------
 
-AddSpawnClass  
-BigMessage  
-CreateCheckpoint  
-CreateClientCheckpoint  
-FindCheckpoint  
-FindPlayer  
-GetCheckpointCount  
-GetHour  
-GetWeather  
-KickPlayer  
-MessagePlayer  
-onPlayerCommand  
-BanIP  
-BanPlayer  
-GetDistrictName  
-GetBodyPartName  
-UnbanIP  
-FadeCamera  
-GetCinematicBorder    
-RestoreCamera  
-ShakeCamera  
-SetCameraMatrix  
-SetCinematicBorder  
-GetWeaponName  
-SetWeaponData  
-GetWeaponIDFromName  
-
-Extras
-----------------
-Supports most of the LU functions for syntax highlighting.  
-Supports all client/server side constants.
+Most (if not all) Liberty Unleashed functions supported by snipets/autocomplete.  
+Most (if not all) Liberty Unleashed functions supported by highlighting.  
+All server/client constants supported by autocomplete.  
