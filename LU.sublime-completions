@@ -472,6 +472,9 @@
         "WEAPONINFO_MODELID",
         "WEAPON_IDLE",
         "WEAPON_FIRING",
-        "WEAPON_RELOADING"
+        "WEAPON_RELOADING",
+        "BANTYPE_NAME",
+        "BANTYPE_IP",
+        "BANTYPE_LUID"
     ]
 }
