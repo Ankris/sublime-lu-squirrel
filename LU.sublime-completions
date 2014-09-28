@@ -1,6 +1,6 @@
 {
     "scope": "source.nut",
-    "completions":[
+    "completions": [
         {
             "trigger": "Blip.",
             "contents": "Blip.DisplayType="
@@ -212,6 +212,198 @@
         {
             "trigger": "SHA1",
             "contents": "SHA1(${0:string});"
+        },
+        {
+            "trigger": "GetTok",
+            "contents": "GetTok(${0:string}, ${1:delim}, ${2:index});"
+        },
+        {
+            "trigger": "GetDistance",
+            "contents": "GetDistance(${0:vector1}, ${1:vector2});"
+        },
+        {
+            "trigger": "IsNum",
+            "contents": "IsNum(${0:string});"
+        },
+        {
+            "trigger": "onSSVBridgeUpdate",
+            "contents": "function onSSVBridgeUpdate(${0:closing});"
+        },
+        {
+            "trigger": "onTimeChange",
+            "contents": "function onTimeChange(${0:hour}, ${1:min})"
+        },
+        {
+            "trigger": "onWeatherChange",
+            "contents": "function onWeatherChange(${0:old_weather}, ${1:new_weather})"
+        },
+        {
+            "trigger": "onPlayerEnterCheckpoint",
+            "contents": "function onPlayerEnterCheckpoint(${0:player}, ${1:checkpoint})"
+        },
+        {
+            "trigger": "onPlayerExitCheckpoint",
+            "contents": "function onPlayerExitCheckpoint(${0:player}, ${1:checkpoint})"
+        },
+        {
+            "trigger": "onPlayerEnterSphere",
+            "contents": "function onPlayerEnterSphere(${0:player}, ${1:sphere});"
+        },
+        {
+            "trigger": "onPlayerExitSphere",
+            "contents": "function onPlayerExitSphere(${0:player}, ${1:sphere})"
+        },
+        {
+            "trigger": "onConsoleInput",
+            "contents": "function onConsoleInput(${0:cmd}, ${1: text})"
+        },
+        {
+            "trigger": "onScriptLoad",
+            "contents": "function onScriptLoad()"
+        },
+        {
+            "trigger": "onScriptUnload",
+            "contents": "function onScriptUnload()"
+        },
+        {
+            "trigger": "onServerStart",
+            "contents": "function onServerStart()"
+        },
+        {
+            "trigger": "onPlayerAction",
+            "contents": "function onPlayerAction(${0:player}, ${1: message})"
+        },
+        {
+            "trigger": "onPlayerArmourChange",
+            "contents": "function onPlayerArmourChange(${0:player}, ${1: old_value}, ${2: new_value})"
+        },
+        {
+            "trigger": "onPlayerCashChange",
+            "contents": "function onPlayerCashChange(${0:player}, ${1: old_value}, ${2: new_value})"
+        },
+        {
+            "trigger": "onPlayerChat",
+            "contents": "function onPlayerChat(${0:player}, ${1: message})"
+        },
+        {
+            "trigger": "onPlayerConnect",
+            "contents": "function onPlayerConnect(${0:player})"
+        },
+        {
+            "trigger": "onPlayerDeath",
+            "contents": "function onPlayerDeath(${0:player}, ${1:reason})"
+        },
+        {
+            "trigger": "onPlayerFall",
+            "contents": "function onPlayerFall(${0:player})"
+        },
+        {
+            "trigger": "onPlayerHealthChange",
+            "contents": "function onPlayerHealthChange(${0:player}, ${1:old_value}, ${2:new_value})"
+        },
+        {
+            "trigger": "onPlayerIslandChange",
+            "contents": "function onPlayerIslandChange(${0:player}, ${1:old_value}, ${2:new_value})"
+        },
+        {
+            "trigger": "onPlayerJoin",
+            "contents": "function onPlayerJoin(${0:player})"
+        },
+        {
+            "trigger": "onPlayerKeyStateChange",
+            "contents": "function onPlayerKeyStateChange(${0:player}, ${1:key}, ${2:pressed})"
+        },
+        {
+            "trigger": "onPlayerKill",
+            "contents": "function onPlayerKill(${0:killer}, ${1:player}, ${2:weapon}, ${3:bodyPart})"
+        },
+        {
+            "trigger": "onPlayerPart",
+            "contents": "function onPlayerPart(${0:player}, ${1:reason})"
+        },
+        {
+            "trigger": "onPlayerScoreChange",
+            "contents": "function onPlayerScoreChange(${0:player}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onPlayerSkinChange",
+            "contents": "function onPlayerSkinChange(${0:player}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onPlayerSpawn",
+            "contents": "function onPlayerSpawn(${0:player}, ${1:class})"
+        },
+        {
+            "trigger": "onPlayerUpdate",
+            "contents": "function onPlayerUpdate(${0:player})"
+        },
+        {
+            "trigger": "onPlayerTeamChange",
+            "contents": "function onPlayerTeamChange(${0:player}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onPlayerUseDetonator",
+            "contents": "function onPlayerUseDetonator(${0:player})"
+        },
+        {
+            "trigger": "onPlayerVirtualWorldChange",
+            "contents": "function onPlayerVirtualWorldChange(${0:player}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onPlayerWeaponChange",
+            "contents": "function onPlayerWeaponChange(${0:player}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onPickupPickedUp",
+            "contents": "function onPickupPickedUp(${0:player}, ${1:pickup})"
+        },
+        {
+            "trigger": "onPickupRespawn",
+            "contents": "function onPickupRespawn(${0:pickup})"
+        },
+        {
+            "trigger": "onPlayerEnteredTrain",
+            "contents": "function onPlayerEnteredTrain(${0:player}, ${1:train})"
+        },
+        {
+            "trigger": "onPlayerEnteredVehicle",
+            "contents": "function onPlayerEnteredVehicle(${0:player}, ${1:vehicle}, ${2:seat})"
+        },
+        {
+            "trigger": "onPlayerEnteringVehicle",
+            "contents": "function onPlayerEnteringVehicle(${0:player}, ${1:vehicle}, ${2:door})"
+        },
+        {
+            "trigger": "onPlayerExitedTrain",
+            "contents": "function onPlayerExitedTrain(${0:player}, ${1:train})"
+        },
+        {
+            "trigger": "onPlayerExitedVehicle",
+            "contents": "function onPlayerExitedVehicle(${0:player}, ${1:vehicle})"
+        },
+        {
+            "trigger": "onPlayerExitingVehicle",
+            "contents": "function onPlayerExitingVehicle(${0:player}, ${1:vehicle})"
+        },
+        {
+            "trigger": "onPlayerFailedVehicleEntry",
+            "contents": "function onPlayerFailedVehicleEntry(${0:player}, ${1:vehicle}, ${2:seat})"
+        },
+        {
+            "trigger": "onVehicleHealthChange",
+            "contents": "function onVehicleHealthChange(${0:vehicle}, ${1:old}, ${2:new})"
+        },
+        {
+            "trigger": "onVehicleRespawn",
+            "contents": "function onVehicleRespawn(${0:vehicle})"
+        },
+        {
+            "trigger": "onVehicleUpdate",
+            "contents": "function onVehicleUpdate(${0:vehicle}, ${1:trigger})"
+        },
+        {
+            "trigger": "onVehicleWrecked",
+            "contents": "function onVehicleWrecked(${0:vehicle})"
         },
         "BODYPART_BODY",
         "BODYPART_HEAD",
