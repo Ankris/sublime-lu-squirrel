@@ -441,13 +441,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(\.Ping|\.Name|\.Nametag|\.NametagColour|\.RemoveFromVehicle|\.RemoveLimb|\.Score|\.SetAnim|\.SetBoundaries|\.SetIgnored|\.SetIgnoredBy|\.SetVehicleEnterDoor)\b</string>
+			<string>\b(\.Ping|\.Name|\.Nametag|\.NametagColour|\.RemoveFromVehicle|\.Skin|\.Spawned|\.RemoveLimb|\.Score|\.SetAnim|\.SetBoundaries|\.SetIgnored|\.SetIgnoredBy|\.SetVehicleEnterDoor)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(\.SetVehicleEnterDoor|\.SetWeapon|\.SetSkin|\.Setspawn|\.SetSpawned|\.Team|\.Vehicle|\.VehicleSeat|\.Velocity|\.WantedLevel|\.Weapon|\.SetWeapon|\.WeaponAmmo|\.WeaponState)\b</string>
+			<string>\b(\.SetVehicleEnterDoor|\.SetWeapon|\.Spawn|\.Team|\.Vehicle|\.VehicleSeat|\.Velocity|\.WantedLevel|\.Weapon|\.SetWeapon|\.WeaponAmmo|\.WeaponState)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
